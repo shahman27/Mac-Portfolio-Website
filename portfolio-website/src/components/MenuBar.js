@@ -2,14 +2,12 @@ import React from "react";
 import Pineapple from "../assests/pineapple.png";
 import {Link} from "react-router-dom";
 import Time from "./Time";
+import "../styles/menubar.css";
 
 function MenuBar() {
     return (
-        <div className="MenuBar">
-
-            <div className="logo">
-                <img src={Pineapple} alt="" />
-            </div>
+        <div className="menubar">
+                <img src={Pineapple} alt="Logo" className="logo" />
             <div className="options">
                 {/* <Link to="/">Home</Link>
                 <Link to="/about">About</Link>

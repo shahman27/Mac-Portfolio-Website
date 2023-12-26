@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'SFPro';
+    src: url('../fonts/SF-Pro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'SFPro', sans-serif;
+  }
+
+/* Adjusting .menubar to include flex display */
+.menubar {
+    display: flex; /* Using flexbox for alignment */
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.833);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 35px;
+    padding-left: 0 10px; /* Add padding for visual spacing */
+  }
+  
+  .logo {
+    width: 45px; /* Adjust based on your logo's aspect ratio */
+    height: auto; /* Adjust based on your logo's aspect ratio */
+    margin-right: 20px; /* Spacing between logo and menu items */
+  }
+
+  .widgets {
+    display: inline-block;
+    padding: 0 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    line-height: 50px; /* To vertically center the text */
+    font-size: 6.9px;
+  }
+  
+  .menuItem {
+    display: inline-block;
+    padding: 0 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    line-height: 50px; /* To vertically center the text */
+  }
+  
+  .menuItem:hover {
+    background-color: #333;
+  }
+  
