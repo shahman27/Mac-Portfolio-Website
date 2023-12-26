@@ -5,7 +5,8 @@
     bottom: 6px; /* Aligns it to the bottom */
     left: 0;
     right: 0;
-    background-color: #333; /* Example background color */
+    height: 50px; /* Height of the rectangle */
+    background-color: rgb(125, 125, 125); /* Example background color */
     border-radius: 15px; /* Rounded corners */
     text-align: center; /* Center the text inside the rectangle */
     padding: 10px 20px; /* Padding on top and bottom */
