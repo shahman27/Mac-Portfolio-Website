@@ -10,7 +10,7 @@
     border-radius: 15px; /* Rounded corners */
     text-align: center; /* Center the text inside the rectangle */
     padding: 10px 20px; /* Padding on top and bottom */
-    opacity: 0.8; /* Transparent background */
+    opacity: 0.7; /* Transparent background */
     /* box-shadow: 0 -2px 5px rgba(0,0,0,0.3); Optional: adds a subtle shadow above the rectangle */
   }
   
