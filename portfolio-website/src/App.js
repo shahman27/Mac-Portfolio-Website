@@ -1,6 +1,7 @@
 import './App.css';
 import MenuBar from './components/MenuBar';
 import Dock from './components/Dock';
+import WebPage from './components/WebPage';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <Router>
       <MenuBar />
       <Dock />
+      <WebPage />
     </Router>
   );
 }

@@ -1,0 +1,32 @@
+/* Rectangle.css */
+
+.WebPage {
+    background-color: var(--rectangle-color, rgba(17, 16, 16, 0.484)); /* Default color is gray */
+    width: var(--rectangle-width, 500px); /* Default width */
+    height: var(--rectangle-height, 600px); /* Default height */
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    margin: 10px; /* Spacing around the rectangle */
+    border-radius: 10px; /* Rounded corners for aesthetics */
+    /* Add other styles such as border, padding, etc., as needed */
+  }
+
+.Exit {
+    display: flex; /* Using flexbox for alignment */
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+    width: 100%;
+    background-color: #282c34;
+    
+    /* background-color: rgba(0, 0, 0, 0.833);  */
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 4%;
+    padding-left: 0 10px; /* Add padding for visual spacing */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
