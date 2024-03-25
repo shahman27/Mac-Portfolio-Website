@@ -7,7 +7,7 @@ import "../styles/menubar.css";
 function MenuBar() {
     return (
         <div className="menubar">
-                <img src={Pineapple} alt="Logo" className="logo" />
+            <img src={Pineapple} alt="Logo" className="logo" />
             <div className="options">
                 {/* <Link to="/">Home</Link>
                 <Link to="/about">About</Link>

@@ -2,7 +2,7 @@
     width: 70%; /* Adjust the width as needed, not 100% to not be full-width */
     margin: 0 auto; /* Centers the rectangle in the middle of the page */
     position: fixed; /* Keeps it at the bottom */
-    bottom: 6px; /* Aligns it to the bottom */
+    bottom: 8px; /* Aligns it to the bottom */
     left: 0;
     right: 0;
     height: 50px; /* Height of the rectangle */

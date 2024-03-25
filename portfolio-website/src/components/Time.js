@@ -14,7 +14,7 @@ function Time() {
 
     return (
         <div>
-            <h1>{date.toDateString()} {time.toLocaleTimeString()}</h1>
+            <h1>{date.toDateString()} | {time.toLocaleTimeString()}</h1>
         </div>
     )
 }
