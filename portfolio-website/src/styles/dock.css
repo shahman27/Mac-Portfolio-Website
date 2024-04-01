@@ -1,4 +1,4 @@
-.dock {
+.dock { 
     width: 70%; /* Adjust the width as needed, not 100% to not be full-width */
     margin: 0 auto; /* Centers the rectangle in the middle of the page */
     position: fixed; /* Keeps it at the bottom */
@@ -12,5 +12,20 @@
     padding: 10px 20px; /* Padding on top and bottom */
     opacity: 0.7; /* Transparent background */
     /* box-shadow: 0 -2px 5px rgba(0,0,0,0.3); Optional: adds a subtle shadow above the rectangle */
+    display:flex; /* Aligns the icons horizontally */
+    justify-content: center; /* This centers the items on the main-axis (horizontally) */
+    align-items: center; /* This centers the items on the cross-axis (vertically) */
+    gap: 20px; /* Adds space between each AppIcon component */
   }
-  
+/* 
+  .dock {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px;
+    gap: 20px; 
+    background-color: #333;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+   */

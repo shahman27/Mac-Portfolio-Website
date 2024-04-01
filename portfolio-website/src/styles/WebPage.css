@@ -13,6 +13,7 @@
     align-items: center; /* Vertically center content */
     margin: 10px; /* Spacing around the rectangle */
     border-radius: 10px; /* Rounded corners for aesthetics */
+    box-shadow: 0 -5px 10px rgba(0,0,0,0.3); /* Optional: adds a subtle shadow above the rectangle */
     /* Add other styles such as border, padding, etc., as needed */
   }
 
@@ -36,8 +37,8 @@
 }
 
 .circle {
-    width: 10px;
-    height: 10px;
+    width: 11px;
+    height: 11px;
     border-radius: 50%;
     background-color: #333;
     margin-right: 4px; /* Adjust space between circles */

@@ -1,0 +1,25 @@
+/* App Icon Container */
+.app-icon {
+    width: 48px; /* Adjust the width as needed */
+    height: 48px; /* Adjust the height as needed */
+    border-radius: 10px; /* Gives the icon rounded corners */
+    background-color: #f0f0f0; /* Light grey background, you can use an image or a gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for interaction */
+  }
+  
+  /* App Icon Image (Assuming you're using an img tag within the .app-icon container) */
+  .app-icon img {
+    max-width: 60%; /* Adjust the size of the icon image */
+    max-height: 60%; /* Adjust the size of the icon image */
+  }
+  
+  /* Hover Effects */
+  .app-icon:hover {
+    transform: translateY(-5px); /* Slightly raises the icon */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Makes the shadow deeper */
+  }
+  
