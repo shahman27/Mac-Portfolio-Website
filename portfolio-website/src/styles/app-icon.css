@@ -1,7 +1,7 @@
 /* App Icon Container */
 .app-icon {
-    width: 48px; /* Adjust the width as needed */
-    height: 48px; /* Adjust the height as needed */
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
     border-radius: 10px; /* Gives the icon rounded corners */
     background-color: #f0f0f0; /* Light grey background, you can use an image or a gradient */
     display: flex;

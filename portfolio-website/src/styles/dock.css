@@ -15,7 +15,7 @@
     display:flex; /* Aligns the icons horizontally */
     justify-content: center; /* This centers the items on the main-axis (horizontally) */
     align-items: center; /* This centers the items on the cross-axis (vertically) */
-    gap: 20px; /* Adds space between each AppIcon component */
+    gap: 17.5px; /* Adds space between each AppIcon component */
   }
 /* 
   .dock {
