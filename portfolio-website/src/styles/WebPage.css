@@ -104,8 +104,8 @@
   height: 11px;
   border-radius: 50%;
   background-color: #333;
-  margin-right: 8px; /* Adjust space between circles */
-  margin-left: 6px;
+  margin-right: 3px; /* Adjust space between circles */
+  margin-left: 5px;
   cursor: pointer; /* Show pointer cursor for clickable elements */
 }
 
